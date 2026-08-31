@@ -1,33 +1,15 @@
-# NXTG Jerseys Website Starter
+# NXTG Jerseys — Updated Storefront
 
-This ZIP is a front-end starter for NXTG Jerseys (Next Gen Jerseys), based on the requested structure and feature list.
+This version keeps the original NXTG catalog/storefront concept and adds the requested updates:
 
-## Included
-- NXTG logo in `assets/nxtg-logo.jpeg`
-- Responsive homepage
-- Shop-all catalog
-- League/team navigation
-- Search
-- Filtering and sorting
-- Product detail modal
-- Size selection
-- Name/number customization fields
-- Local cart
-- Guest-checkout-ready flow
-- Stripe-ready checkout placeholder
-- Database/import-ready architecture notes
-- Mobile navigation
+- Added Chelsea 2026/2027 home and away shirts.
+- Removed the entire Leagues section and Leagues navigation.
+- Added the supplied team images and names to the Teams section.
+- Kept the existing jersey catalog and search/filter system.
+- Kept guest checkout, cart, size selection, and name/number customization UI.
+- Added stronger visual sections, darker hero treatment, team cards, retro chips, and denser content to reduce white space.
 
 ## Important
-The sample catalog in `app.js` contains a small set of demo products so the ZIP stays lightweight. It is intentionally structured so a real database/import can replace that array.
+The supplied Discord image URLs are retained as the image sources in the catalog/team cards. For a production deployment, download/host the images in your own storage so the site does not depend on temporary Discord CDN URLs.
 
-For the production version:
-1. Put the authorized product catalog into a database (Supabase/PostgreSQL is suitable).
-2. Import products via CSV/JSON rather than hard-coding thousands of products into the UI.
-3. Add authorized product images.
-4. Connect Stripe using server-side API routes and environment variables.
-5. Add real order creation, webhooks, fulfillment status, email confirmations, shipping/tax logic, and secure admin authentication.
-6. Only use product data/images that NXTG Jerseys is authorized to use.
-
-## Run locally
-Open `index.html` in a browser for the static demo. For a production app, migrate the UI into Next.js/React or another supported full-stack framework and connect the database/payment services.
+Checkout remains a frontend placeholder until a payment backend/Stripe integration is connected.
