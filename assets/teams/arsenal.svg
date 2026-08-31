@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#DB0007"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs>
+<rect width="600" height="600" rx="80" fill="#f4f4f4"/>
+<circle cx="300" cy="300" r="220" fill="url(#g)" stroke="#111" stroke-width="14"/>
+<circle cx="300" cy="300" r="184" fill="none" stroke="#fff" stroke-opacity=".65" stroke-width="3"/>
+<text x="300" y="330" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="112" font-weight="900" fill="#111111">ARS</text>
+<path d="M130 445 Q300 520 470 445" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="8"/>
+</svg>

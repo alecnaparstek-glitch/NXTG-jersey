@@ -13,3 +13,6 @@ This version keeps the original NXTG catalog/storefront concept and adds the req
 The supplied Discord image URLs are retained as the image sources in the catalog/team cards. For a production deployment, download/host the images in your own storage so the site does not depend on temporary Discord CDN URLs.
 
 Checkout remains a frontend placeholder until a payment backend/Stripe integration is connected.
+
+
+Image fix: team badges are bundled locally in assets/teams so the Teams section does not depend on Discord image URLs.

@@ -26,17 +26,17 @@ const products = [
 ];
 
 const teams = [
-  ['Manchester City','https://media.discordapp.net/attachments/1542718159881109508/1543831808897056798/8wmV1OAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNgAAAAAgAB9HFkpgAAAAB5ErkJggg.png?ex=6a964cea&is=6a94fb6a&hm=ce642d6a5bea0eb67ad4f4fad944adaac4bf49b721927bb4b87ea2069c377d86&=&format=webp&quality=lossless'],
-  ['Inter Milan','https://media.discordapp.net/attachments/1542718159881109508/1543831834255687781/8wmV1OAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNgAAAAAgAB9HFkpgAAAAB5ErkJggg.png?ex=6a964cf0&is=6a94fb70&hm=716bf57e66c59763c104fd48c6b964eeb0ff64fdf69d61c8c7299f473a27704d&=&format=webp&quality=lossless'],
-  ['Liverpool','https://media.discordapp.net/attachments/1542718159881109508/1543832075831087175/8wmV1OAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNgAAAAAgAB9HFkpgAAAAB5ErkJggg.png?ex=6a964d29&is=6a94fba9&hm=4b04c12334707df8e298acc20104306578c09ab2f15efc65ca806bf4e8065c91&=&format=webp&quality=lossless'],
-  ['AC Milan','https://media.discordapp.net/attachments/1542718159881109508/1543832165073297419/8wmV1OAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNgAAAAAgAB9HFkpgAAAAB5ErkJggg.png?ex=6a964d3f&is=6a94fbbf&hm=f2fe194ff85f72c2cd7e015028a2c327c5c56244af373250e37751ba0dc5c328&=&format=webp&quality=lossless'],
-  ['Arsenal','https://media.discordapp.net/attachments/1542718159881109508/1543832309965389924/8wmV1OAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNgAAAAAgAB9HFkpgAAAAB5ErkJggg.png?ex=6a964d61&is=6a94fbe1&hm=3bd9f5a9db1fe051f13d278bfd22a1beb319df57923be98a01bec88ff9642117&=&format=webp&quality=lossless'],
-  ['Juventus','https://media.discordapp.net/attachments/1542718159881109508/1543832425476522035/8wmV1OAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNgAAAAAgAB9HFkpgAAAAB5ErkJggg.png?ex=6a964d7d&is=6a94fbfd&hm=364773b512923570b0b153251dd161b0f4b06dad784706ba7bf2f269bdd80ccd&=&format=webp&quality=lossless'],
-  ['Chelsea','https://media.discordapp.net/attachments/1542718159881109508/1543832456690401290/8wmV1OAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNgAAAAAgAB9HFkpgAAAAB5ErkJggg.png?ex=6a964d84&is=6a94fc04&hm=4873474df4432cb25d792585ffaf48820ae68599b77a9585d37706054f609301&=&format=webp&quality=lossless'],
-  ['Paris Saint-Germain','https://media.discordapp.net/attachments/1542718159881109508/1543832595580583946/8wmV1OAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNgAAAAAgAB9HFkpgAAAAB5ErkJggg.png?ex=6a964da5&is=6a94fc25&hm=d5e04f2ee3b8c2aaf9086141fa585cc274423677c5b711384ceb06dd6161ea4d&=&format=webp&quality=lossless'],
-  ['Real Madrid','https://media.discordapp.net/attachments/1542718159881109508/1543832598562869248/8wmV1OAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNgAAAAAgAB9HFkpgAAAAB5ErkJggg.png?ex=6a964da6&is=6a94fc26&hm=a365e8763c38bc82535c8ec0736820547dd8b2bf782f2033196da6db49175811&=&format=webp&quality=lossless'],
-  ['Bayern Munich','https://media.discordapp.net/attachments/1542718159881109508/1543832737088016504/8wmV1OAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNgAAAAAgAB9HFkpgAAAAB5ErkJggg.png?ex=6a964dc7&is=6a94fc47&hm=2e4f49854e5d43df1df2f84832b343917aabb9826b733b09cf231a3cd713f9b5&=&format=webp&quality=lossless'],
-  ['Barcelona','https://media.discordapp.net/attachments/1542718159881109508/1543832820840013945/8wmV1OAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAACklEQVQImWNgAAAAAgAB9HFkpgAAAAB5ErkJggg.png?ex=6a964ddb&is=6a94fc5b&hm=a1ddb712d87868aafe81ab02295a4cf1e998f8dce8e2c9377762b54bb55fb0b4&=&format=webp&quality=lossless']
+  ['Manchester City','assets/teams/manchester-city.png'],
+  ['Inter Milan','assets/teams/inter-milan.png'],
+  ['Liverpool','assets/teams/liverpool.png'],
+  ['AC Milan','assets/teams/ac-milan.png'],
+  ['Arsenal','assets/teams/arsenal.png'],
+  ['Juventus','assets/teams/juventus.png'],
+  ['Chelsea','assets/teams/chelsea.png'],
+  ['Paris Saint-Germain','assets/teams/paris-saint-germain.png'],
+  ['Real Madrid','assets/teams/real-madrid.png'],
+  ['Bayern Munich','assets/teams/bayern-munich.png'],
+  ['Barcelona','assets/teams/barcelona.png']
 ];
 
 let cart = JSON.parse(localStorage.getItem('nxtgCart') || '[]');
@@ -46,7 +46,7 @@ const money = n => '$' + Number(n).toFixed(2);
 const safe = s => String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
 
 function renderTeams(){
-  $('#teamGrid').innerHTML = teams.map(([name,image]) => `<button class="team-card" data-team="${safe(name)}"><div class="team-image"><img src="${image}" alt="${safe(name)} logo" loading="lazy"><span>${safe(name.split(' ').map(x=>x[0]).join('').slice(0,3))}</span></div><strong>${safe(name)}</strong><small>Shop jerseys →</small></button>`).join('');
+  $('#teamGrid').innerHTML = teams.map(([name,image]) => `<button class="team-card" data-team="${safe(name)}"><div class="team-image"><img src="${image}" alt="${safe(name)} badge" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span>${safe(name.split(' ').map(x=>x[0]).join('').slice(0,3))}</span></div><strong>${safe(name)}</strong><small>Shop jerseys →</small></button>`).join('');
   $$('.team-card').forEach(b=>b.addEventListener('click',()=>{ $('#teamFilter').value=b.dataset.team; $('#searchInput').value=''; $('#shop').scrollIntoView({behavior:'smooth'}); renderProducts(); }));
 }
 function renderProducts(){
