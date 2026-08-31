@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NXTG Jerseys — Next Gen Jerseys. Shop soccer jerseys by team, season, and style.">
+  <title>NXTG Jerseys — Next Gen Jerseys</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">NEXT GEN JERSEYS • NEW KITS • RETRO CLASSICS • CUSTOM NAMES & NUMBERS</div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="NXTG Jerseys home">
+      <img src="assets/nxtg-logo.jpeg" alt="NXTG Jerseys logo">
+      <span>NXTG <small>JERSEYS</small></span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="#shop">Shop All</a><a href="#teams">Teams</a><a href="#retro">Retro</a><a href="#custom">Custom</a><a href="#new">New Arrivals</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="openSearch" aria-label="Search">⌕</button>
+      <button class="cart-btn" id="openCart">Cart <b id="cartCount">0</b></button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#shop">Shop All</a><a href="#teams">Teams</a><a href="#retro">Retro</a><a href="#custom">Custom</a><a href="#new">New Arrivals</a>
+  </div>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">NXTG JERSEYS / NEXT GEN JERSEYS</p>
+        <h1>FIND YOUR<br><span>NEXT</span> JERSEY.</h1>
+        <p>Shop current kits, retro shirts, national teams, and custom name-and-number options — all in one clean catalog.</p>
+        <div class="hero-buttons"><a class="btn primary" href="#shop">Shop Jerseys</a><a class="btn secondary" href="#teams">Browse Teams</a></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-grid"></div><img src="assets/nxtg-logo.jpeg" alt="NXTG" class="hero-logo"><strong>8,000+</strong><span>catalog-ready jerseys</span>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><strong>GUEST CHECKOUT</strong><span>No account required</span></div>
+      <div><strong>NAME + NUMBER</strong><span>Customize eligible jerseys</span></div>
+      <div><strong>SECURE CHECKOUT</strong><span>Payment integration ready</span></div>
+      <div><strong>FAST SEARCH</strong><span>Find any shirt quickly</span></div>
+    </section>
+
+    <section class="section teams-section" id="teams">
+      <div class="section-heading"><div><p class="eyebrow">FIND YOUR CLUB</p><h2>TEAMS</h2></div><a href="#shop">Shop all →</a></div>
+      <div class="team-grid" id="teamGrid"></div>
+    </section>
+
+    <section class="section shop-section" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">THE CATALOG</p><h2>SHOP SOCCER JERSEYS</h2></div><span class="product-count" id="productCount"></span></div>
+      <div class="shop-toolbar">
+        <div class="search-wrap"><input id="searchInput" type="search" placeholder="Search every shirt, team, player, season..." autocomplete="off"></div>
+        <select id="categoryFilter"><option value="">All styles</option><option value="Current Kits">Current Kits</option><option value="Retro">Retro</option><option value="National Teams">National Teams</option><option value="MLS">MLS</option></select>
+        <select id="sortSelect"><option value="featured">Featured</option><option value="newest">Newest</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option><option value="az">Alphabetical</option></select>
+      </div>
+      <div class="product-layout">
+        <aside class="filters">
+          <h3>FILTERS</h3>
+          <label>Team <input id="teamFilter" placeholder="e.g. Chelsea"></label>
+          <label>Player <input id="playerFilter" placeholder="e.g. Messi"></label>
+          <label>Season <input id="seasonFilter" placeholder="e.g. 2025/26"></label>
+          <label>Size<select id="sizeFilter"><option value="">Any size</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option></select></label>
+          <label>Max price<input id="priceFilter" type="number" min="0" placeholder="No limit"></label>
+          <button class="clear-btn" id="clearFilters">Clear filters</button>
+        </aside>
+        <div class="products" id="products"></div>
+      </div>
+    </section>
+
+    <section class="feature-banner" id="custom">
+      <div><p class="eyebrow">MAKE IT YOURS</p><h2>CUSTOM NAME.<br>CUSTOM NUMBER.</h2><p>Choose your size and add a name and number on eligible jerseys before adding them to your cart.</p></div>
+      <a class="btn primary" href="#shop">Find a Jersey</a>
+    </section>
+
+    <section class="section dark-section" id="retro">
+      <div class="section-heading"><div><p class="eyebrow">CLASSICS</p><h2>RETRO & THROWBACK</h2></div><a href="#shop">Shop retro →</a></div>
+      <p class="section-text">Classic kits, goalkeeper shirts, Champions League throwbacks, and older fan favorites. Use the search bar to find a specific retro shirt.</p>
+      <div class="retro-chips"><span>2007/08</span><span>2008/09</span><span>2014/15</span><span>2018</span><span>THROWBACKS</span></div>
+    </section>
+
+    <section class="section new-section" id="new">
+      <div class="section-heading"><div><p class="eyebrow">FRESH IN</p><h2>NEW ARRIVALS</h2></div><a href="#shop">Browse →</a></div>
+      <div class="new-grid"><div><strong>2026 / 27</strong><span>New-season club kits</span></div><div><strong>CUSTOM</strong><span>Name + number options</span></div><div><strong>RETRO</strong><span>Classic shirts</span></div></div>
+    </section>
+
+    <section class="how section">
+      <div class="section-heading"><div><p class="eyebrow">HOW IT WORKS</p><h2>ORDER IN 3 STEPS</h2></div></div>
+      <div class="steps"><div><span>01</span><h3>Find it</h3><p>Search the catalog or choose a team.</p></div><div><span>02</span><h3>Choose it</h3><p>Select your size and add a name or number when available.</p></div><div><span>03</span><h3>Checkout</h3><p>Pay as a guest without creating an account.</p></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><img src="assets/nxtg-logo.jpeg" alt="NXTG Jerseys"><div><strong>NXTG JERSEYS</strong><span>Next Gen Jerseys</span></div></div>
+    <div class="footer-links"><a href="#shop">Shop</a><a href="#teams">Teams</a><a href="#retro">Retro</a><a href="#custom">Custom</a><a href="#new">New Arrivals</a><a href="#">FAQ</a><a href="#">Shipping</a><a href="#">Returns</a><a href="#">Order Lookup</a></div>
+    <p class="copyright">© 2026 NXTG Jerseys. All rights reserved.</p>
+  </footer>
+
+  <div class="modal" id="searchModal"><div class="modal-card search-card"><button class="close" data-close="searchModal">×</button><h2>SEARCH NXTG</h2><input id="modalSearch" type="search" placeholder="Search any jersey, team, player..."><button class="btn primary" id="modalSearchGo">Search</button></div></div>
+  <div class="modal" id="productModal"><div class="modal-card product-modal-card"><button class="close" data-close="productModal">×</button><div id="productModalContent"></div></div></div>
+  <div class="drawer" id="cartDrawer"><div class="drawer-header"><h2>Your Cart</h2><button class="close" id="closeCart">×</button></div><div id="cartItems"></div><div class="cart-total"><span>Total</span><strong id="cartTotal">$0.00</strong></div><button class="btn primary full" id="checkoutBtn">Checkout</button><p class="tiny">Guest checkout • Secure payment integration ready</p></div>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <script src="app.js"></script>
+</body>
+</html>
