@@ -7,3 +7,51 @@ footer{background:#101010;color:#fff;padding:50px 7% 25px}.footer-brand{display:
 
 /* Prevent broken remote images from leaving empty-looking cards. Local team badges are bundled with the site. */
 .team-card strong{letter-spacing:.1px}.team-card small{transition:transform .18s}.team-card:hover small{transform:translateX(3px)}
+
+/* NXTG refresh: brighter accents, softer shapes, cleaner hierarchy. */
+:root{--ink:#121212;--muted:#666;--line:#e4e4e4;--lime:#d9ff4f;--sky:#dff3ff;--pink:#ffe1ed}
+body{background:#f8f8f5;color:var(--ink)}
+.announcement{background:linear-gradient(90deg,#d9ff4f,#e7f5ff,#ffd9e8);color:#111;font-weight:900}
+.site-header{background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid #eee}
+.brand img{filter:none}
+.hero{background:radial-gradient(circle at 85% 20%,#e5f7ff 0 15%,transparent 36%),linear-gradient(135deg,#111 0%,#181818 58%,#263126 100%);border-radius:0 0 42px 42px}
+.hero-art{border:1px solid #ffffff2a;background:linear-gradient(145deg,#202020,#111);border-radius:30px;transform:rotate(1deg)}
+.hero-art strong{color:var(--lime)}
+.hero-logo{filter:none}
+.btn{border-radius:999px}
+.hero .primary{background:var(--lime);border-color:var(--lime);color:#111}
+.trust-strip{background:#fff;color:#111;border-bottom:1px solid #eee}
+.trust-strip div{border-right:1px solid #eee}
+.trust-strip span{color:#777}
+.section{background:#fbfbf8}
+.teams-section{background:linear-gradient(180deg,#f1f7ee,#fbfbf8)}
+.team-grid{gap:18px}
+.team-card{border:1px solid #e1e5dc;border-radius:22px;box-shadow:0 8px 24px rgba(20,30,20,.05)}
+.team-image{height:150px;background:linear-gradient(145deg,#fff,#eef7e7);border-radius:22px 22px 0 0}
+.shop-section{background:#fbfbf8}
+.shop-toolbar select,.search-wrap input,.filters input,.filters select{border-radius:14px;border-color:#ddd}
+.filters{border:0;border-radius:22px;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+.clear-btn{border-radius:999px}
+.products,.featured-products{gap:20px}
+.product-card{border:1px solid #e6e6e1;border-radius:22px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.045);background:#fff}
+.product-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(0,0,0,.09)}
+.product-image{background:linear-gradient(145deg,#f3f8ef,#eef2f6);padding:8px}
+.product-image img{object-fit:contain;mix-blend-mode:multiply}
+.badge{top:12px;left:12px;border-radius:999px;background:var(--lime);color:#111;padding:6px 10px}
+.add-small{border-radius:999px;background:#111}
+.feature-banner{background:linear-gradient(110deg,#e7ff7a,#e6f6ff 52%,#ffe4ef);border-radius:36px;margin:0 7% 65px;padding:55px 7%}
+.dark-section{background:linear-gradient(135deg,#111,#171b16);border-radius:38px;margin:0 5% 65px;padding-left:4%;padding-right:4%}
+.dark-section .product-card{color:#111}
+.retro-chips span{border:1px solid #ffffff33;border-radius:999px;background:#ffffff0b}
+.featured-products{display:grid;grid-template-columns:repeat(4,1fr);margin-top:30px}
+.new-section{background:linear-gradient(180deg,#fff2f7,#fbfbf8)}
+.new-section .featured-products{margin-top:0}
+.new-section .product-card:nth-child(2n) .product-image{background:linear-gradient(145deg,#e7f7ff,#f4f0ff)}
+.detail-image{border-radius:24px;background:linear-gradient(145deg,#f3f8ef,#eef2f6)}
+.detail select,.detail input{border-radius:12px}
+.modal-card{border-radius:28px}
+.drawer{border-radius:28px 0 0 28px}
+.cart-thumb{border-radius:12px;object-fit:contain}
+footer{border-radius:42px 42px 0 0}
+@media(max-width:900px){.featured-products{grid-template-columns:repeat(2,1fr)}.dark-section{margin:0 2% 50px}}
+@media(max-width:600px){.featured-products{grid-template-columns:repeat(2,1fr);gap:10px}.feature-banner{margin:0 4% 50px;border-radius:26px}.dark-section{border-radius:28px}}
