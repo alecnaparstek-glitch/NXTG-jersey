@@ -12,6 +12,6 @@ Each product in `app.js` has:
 - `new`
 - `image`
 
-Current categories used by the storefront: `Current Kits`, `Retro`, `National Teams`, and `MLS`.
+Current categories used by the storefront: `Current Kits`, `Retro`, and `National Teams`.
 
-The storefront intentionally has no Leagues section or League navigation.
+The Teams section currently includes the clubs/national team badges used by the storefront, including the supplied Argentina crest.

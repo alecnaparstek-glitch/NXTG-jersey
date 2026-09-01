@@ -38,7 +38,7 @@
         <div class="hero-buttons"><a class="btn primary" href="#shop">Shop Jerseys</a><a class="btn secondary" href="#teams">Browse Teams</a></div>
       </div>
       <div class="hero-art">
-        <div class="hero-grid"></div><img src="assets/nxtg-logo.jpeg" alt="NXTG" class="hero-logo"><strong>40+</strong><span>jerseys available</span>
+        <div class="hero-grid"></div><img src="assets/nxtg-logo.jpeg" alt="NXTG" class="hero-logo"><strong>39</strong><span>jerseys available</span>
       </div>
     </section>
 
@@ -57,20 +57,26 @@
     <section class="section shop-section" id="shop">
       <div class="section-heading"><div><p class="eyebrow">THE CATALOG</p><h2>SHOP SOCCER JERSEYS</h2></div><span class="product-count" id="productCount"></span></div>
       <div class="shop-toolbar">
-        <div class="search-wrap"><input id="searchInput" type="search" placeholder="Search every shirt, team, player, season..." autocomplete="off"></div>
+        <div class="search-wrap">
+          <label class="sr-only" for="searchInput">Search jerseys</label>
+          <input id="searchInput" type="search" placeholder="Search jerseys, teams, seasons..." autocomplete="off">
+          <div class="search-suggestions" id="searchSuggestions" aria-live="polite"></div>
+        </div>
         <select id="categoryFilter"><option value="">All styles</option><option value="Current Kits">Current Kits</option><option value="Retro">Retro</option><option value="National Teams">National Teams</option><option value="MLS">MLS</option></select>
         <select id="sortSelect"><option value="featured">Featured</option><option value="newest">Newest</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option><option value="az">Alphabetical</option></select>
       </div>
       <div class="product-layout">
-        <aside class="filters">
-          <h3>FILTERS</h3>
-          <label>Team <input id="teamFilter" placeholder="e.g. Chelsea"></label>
-          <label>Player <input id="playerFilter" placeholder="e.g. Messi"></label>
-          <label>Season <input id="seasonFilter" placeholder="e.g. 2025/26"></label>
-          <label>Size<select id="sizeFilter"><option value="">Any size</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option></select></label>
-          <label>Max price<input id="priceFilter" type="number" min="0" placeholder="No limit"></label>
-          <button class="clear-btn" id="clearFilters">Clear filters</button>
-        </aside>
+        <details class="filters">
+          <summary>FILTERS <span>Tap to refine</span></summary>
+          <div class="filter-fields">
+            <label>Team <input id="teamFilter" placeholder="e.g. Chelsea"></label>
+            <label>Player <input id="playerFilter" placeholder="e.g. Messi"></label>
+            <label>Season <input id="seasonFilter" placeholder="e.g. 2025/26"></label>
+            <label>Size<select id="sizeFilter"><option value="">Any size</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option></select></label>
+            <label>Max price<input id="priceFilter" type="number" min="0" placeholder="No limit"></label>
+            <button class="clear-btn" id="clearFilters">Clear filters</button>
+          </div>
+        </details>
         <div class="products" id="products"></div>
       </div>
     </section>

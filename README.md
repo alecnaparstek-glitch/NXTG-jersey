@@ -1,18 +1,21 @@
-# NXTG Jerseys — Updated Storefront
+# NXTG Jerseys — Refreshed Storefront
 
-This version keeps the original NXTG catalog/storefront concept and adds the requested updates:
+This build refreshes the storefront layout and catalog experience.
 
-- Added Chelsea 2026/2027 home and away shirts.
-- Removed the entire Leagues section and Leagues navigation.
-- Added the supplied team images and names to the Teams section.
-- Kept the existing jersey catalog and search/filter system.
-- Kept guest checkout, cart, size selection, and name/number customization UI.
-- Added stronger visual sections, darker hero treatment, team cards, retro chips, and denser content to reduce white space.
+## Updates
+- Replaced the supplied Manchester United goalkeeper and PSG special-edition images.
+- Updated the Argentina catalog with the supplied Argentina shirt images.
+- Added the Argentina crest to the Teams section using the supplied logo.
+- Retro products remain available in both their team results and Retro & Throwback.
+- Removed Morocco, United States, Inter Miami, Los Angeles, and Inter Milan from the storefront.
+- Removed replica-quality wording from product names.
+- Added live search suggestions with shirt images and names while typing.
+- Improved mobile navigation, search, filters, product grids, spacing, and product-detail layout.
+- Removed the old 3-step section.
+- New Arrivals now uses a smaller curated selection.
+- Hero catalog count is set to 39 jerseys.
 
-## Important
-The supplied Discord image URLs are retained as the image sources in the catalog/team cards. For a production deployment, download/host the images in your own storage so the site does not depend on temporary Discord CDN URLs.
+## Images
+Most catalog product images use the Discord CDN URLs supplied with the catalog. For production, host the images yourself so the site does not depend on temporary CDN URLs.
 
 Checkout remains a frontend placeholder until a payment backend/Stripe integration is connected.
-
-
-Image fix: team badges are bundled locally in assets/teams so the Teams section does not depend on Discord image URLs.

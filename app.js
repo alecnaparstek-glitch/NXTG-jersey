@@ -1,6 +1,5 @@
 const products = [
   {id:1,name:'Manchester United Home Jersey 2025/26',team:'Manchester United',season:'2025/26',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543823529072398356/7f1865a4cc390bf07c1c1fe705353a07.png?ex=6a964534&is=6a94f3b4&hm=371b9cac82a9d970ba5b6ca87dbf704a33bf1bed61274e424836f49f049cb650&=&format=webp&quality=lossless&width=384&height=384'},
-  {id:2,name:'Inter Milan Home Jersey 2025/26',team:'Inter Milan',season:'2025/26',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543823747759349831/4bd40bb18017aef7b061495eaeaefe8b.png?ex=6a964568&is=6a94f3e8&hm=96ced024f56e8ffd1c97868ac94b54062927ed005cc2e294abf0af1f80468e6d&=&format=webp&quality=lossless&width=384&height=384'},
   {id:3,name:'Manchester City Away Jersey 2025/26',team:'Manchester City',season:'2025/26',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543823876415299665/532fcdec47d403d08f31a65593142c97.png?ex=6a964586&is=6a94f406&hm=f115d73b7ccdc87eeb7f725b6aef3ff7610cac0a1e39693764a14de6d73586bc&=&format=webp&quality=lossless&width=384&height=384'},
   {id:4,name:'AC Milan Home Jersey 2025/26',team:'AC Milan',season:'2025/26',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543824038831591535/7b0609155658b8e41a9967edbaeb805a.png?ex=6a9645ad&is=6a94f42d&hm=150454e32beb26034c41d4c86ca62f2b04b976a358776c097c8612710d3c2070&=&format=webp&quality=lossless&width=384&height=384'},
   {id:5,name:'Liverpool Home Jersey 2025/26',team:'Liverpool',season:'2025/26',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543824045944864818/a8d8dc59c9950bb3f381600b0177d61b.png?ex=6a9645af&is=6a94f42f&hm=e49a4add36f2133f52adf28d9ea0d29f46baec71e25782324abd784558c4cf65&=&format=webp&quality=lossless&width=384&height=384'},
@@ -10,17 +9,13 @@ const products = [
   {id:9,name:'PSG Home Jersey 2025/26',team:'Paris Saint-Germain',season:'2025/26',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543824916976238734/18cd0ed5198f02ea8d844453ae434f35.png?ex=6a96467f&is=6a94f4ff&hm=a32c38854565547411305a59697b06a1449b92b59a6ad336c1cf85713d269902&=&format=webp&quality=lossless&width=384&height=384'},
   {id:10,name:'Bayern Munich Home Jersey 2025/26',team:'Bayern Munich',season:'2025/26',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543825213115072602/a34c12740d585edd450d71b999c09980.png?ex=6a9646c5&is=6a94f545&hm=68f8be285a06328225b825b9580e0f176157a1617adccaf007fd3ed80d77e096&=&format=webp&quality=lossless&width=384&height=384'},
   {id:11,name:'2018 Retro France Home Football Shirt',team:'France',season:'2018',category:'Retro',price:35,custom:true,new:false,image:'https://media.discordapp.net/attachments/1542718159881109508/1543825463271755818/64f07c30413474ba6096ef1d77fb149d.png?ex=6a964701&is=6a94f581&hm=2f73dd093f9b8ed4d4e377b431c5d13613888dbc9055bd94e46fc70066309253&=&format=webp&quality=lossless&width=384&height=384'},
-  {id:12,name:'2007/2008 Retro Manchester United Goalkeeper Grey Football Shirt',team:'Manchester United',season:'2007/08',category:'Retro',price:35,custom:true,new:false,image:'https://media.discordapp.net/attachments/1542718159881109508/1543825549691060294/dbc551c7eed794a646c3fddc1a22e53c_420x.png?ex=6a964715&is=6a94f595&hm=437c75e9c96a805396cde9a8e9f87d482fc982ac3c5b7dc75632079a899d0811&=&format=webp&quality=lossless&width=384&height=384'},
+  {id:12,name:'2007/2008 Retro Manchester United Goalkeeper Grey Football Shirt',team:'Manchester United',season:'2007/08',category:'Retro',price:35,custom:true,new:false,image:'https://media.discordapp.net/attachments/963919457753894994/1544162751453073469/c73269cb1fbddd6e4f0668f1d4e6d8fe.png?ex=6a978121&is=6a962fa1&hm=070af2ac973b6064d684837c88b65164266e8af9cca49434baa67de01dcb5f0d&=&format=webp&quality=lossless&width=384&height=384'},
   {id:13,name:'2008/2009 Retro Barcelona Football Shirt Home Champions League',team:'Barcelona',season:'2008/09',category:'Retro',price:35,custom:true,new:false,image:'https://media.discordapp.net/attachments/1542718159881109508/1543825722961829898/e10121ed3f63f49e018f2aff1c0e8bc1.png?ex=6a96473f&is=6a94f5bf&hm=ff3d79a66854bbce595ef0eaf7826a4f9a861795b3fb7b208e7ae1db1689f612&=&format=webp&quality=lossless&width=334&height=384'},
-  {id:14,name:'2026 Argentina National Team Home Football Shirt',team:'Argentina',season:'2026',category:'National Teams',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543826009311416400/9de53ed4e98e37ecb767967a909ecb16.png?ex=6a964783&is=6a94f603&hm=6d784a0f1c2775a424cd8616c1d2cb8b9957efa43ea6cf22c6d6b09f048f3ef1&=&format=webp&quality=lossless&width=384&height=384'},
+  {id:14,name:'2026 Player Version Argentina Home Football Shirt',team:'Argentina',season:'2026',category:'National Teams',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/963919457753894994/1544162446888140800/320fadf2685cd6eca8244912d8f213f4.png?ex=6a9780d8&is=6a962f58&hm=d3ddbc0cf517baa2bae8a496b75056b6e6f92857b7c531ca4e3970b7b23987fe&=&format=webp&quality=lossless&width=384&height=384'},
   {id:15,name:'2014/2015 Retro Barcelona Football Shirt Home',team:'Barcelona',season:'2014/15',category:'Retro',price:35,custom:true,new:false,image:'https://media.discordapp.net/attachments/1542718159881109508/1543826146771214357/9c4413c10249a2f0ac491c56e881c649.png?ex=6a9647a4&is=6a94f624&hm=0e58ddf4e95c1a60965d97b5d7ec0f531f4aba8200e295cc789eadbd733b94ac&=&format=webp&quality=lossless&width=384&height=384'},
   {id:16,name:'2026/2027 Player Version Real Madrid Away Football Shirt',team:'Real Madrid',season:'2026/27',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543826300102381568/3ef91be49df33c1b61ede064f88b7c27.png?ex=6a9647c8&is=6a94f648&hm=9af2dd00a7b0df794ac5290156861595d2f87291d9824bd27cd4568280176aee&=&format=webp&quality=lossless&width=384&height=384'},
-  {id:17,name:'2026 Morocco National Team Away Football Shirt',team:'Morocco',season:'2026',category:'National Teams',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543826349863477258/fd8680ed28c7273f842992f70b79b2c4.png?ex=6a9647d4&is=6a94f654&hm=202a5f8d376d6bc8fb10195d4d82f165cecb377c08c8b722cdf383fa00056e38&=&format=webp&quality=lossless&width=384&height=384'},
-  {id:18,name:'2026 United States National Team Home Football Shirt',team:'United States',season:'2026',category:'National Teams',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543826490289029211/172af911280749865b0e126b982b5e8a.png?ex=6a9647f6&is=6a94f676&hm=afe2e39f0d316f7f7c89c28f1589fba86f799d31465176aba29cde6310437d3a&=&format=webp&quality=lossless&width=384&height=384'},
   {id:19,name:'2014/2015 Retro Bayern Munich Home Football Jersey',team:'Bayern Munich',season:'2014/15',category:'Retro',price:35,custom:true,new:false,image:'https://media.discordapp.net/attachments/1542718159881109508/1543826530336112650/b4d114bcc26f14bde4f715665ef03ade.png?ex=6a9647ff&is=6a94f67f&hm=85e77b2ec6858270a243125c8c4e4ec1aac3437540f3f206834a253597983fb4&=&format=webp&quality=lossless&width=384&height=384'},
   {id:20,name:'2026/2027 Player Version Barcelona Home Football Shirt',team:'Barcelona',season:'2026/27',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543826861774340149/a7335cf2bb7b6041aa180a73b9b4b004.png?ex=6a96484e&is=6a94f6ce&hm=2b4094198f1bb48b3fa209d7a5acd3ef75c74e886023cedf542875ced4ea0814&=&format=webp&quality=lossless&width=384&height=384'},
-  {id:21,name:'2025/2026 Inter Miami Away Soccer Jersey',team:'Inter Miami',season:'2025/26',category:'MLS',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543826986286321734/0dba1d6ca7170c56f5931e0e8445923d.png?ex=6a96486c&is=6a94f6ec&hm=71382c69a19d3dd1d459ba40bd4ebabab729fad214c257e33a343fe8a5d3aad8&=&format=webp&quality=lossless&width=384&height=384'},
-  {id:22,name:'2025/2026 Los Angeles Away Soccer Jersey',team:'Los Angeles',season:'2025/26',category:'MLS',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543827314788270090/a304520e12e72c6a78fe82d700a2f669.png?ex=6a9648ba&is=6a94f73a&hm=b74a2d2ecf11a31a8b8396f96620b0924c7e9a357bc5a99b0569fd2209593bb7&=&format=webp&quality=lossless&width=384&height=384'},
   {id:23,name:'2026/2027 Chelsea Away Football Shirt',team:'Chelsea',season:'2026/27',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543830813253046342/8ff47eb4c9742d47b8813e65e097582f.png?ex=6a964bfc&is=6a94fa7c&hm=2a05d73aeead300395e765258347cf604b3e290136c34340a8d0f6e7eee5b045&=&format=webp&quality=lossless&width=384&height=384'},
   {id:24,name:'2026/2027 Chelsea Home Football Shirt',team:'Chelsea',season:'2026/27',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/1542718159881109508/1543830899345596457/c1e5f7bbf8e6c7f18e755c7a1e69079b.png?ex=6a964c11&is=6a94fa91&hm=590ff1e1a90c8e7e7c35a4ece9032090b93fe152c549181d240fd3a0750f257e&=&format=webp&quality=lossless&width=384&height=384'},
   {id:25,name:'2024/2025 PSG Paris Saint-Germain Special Edition Football Shirt',team:'Paris Saint-Germain',season:'2024/25',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/963919457753894994/1544155741206749264/9e36a6d8af64e052464acb76a7056868.png?ex=6a977a99&is=6a962919&hm=cd2347687d27e91ce3254081385a7b427dc91c2368648779a2e252d20916fe&=&format=webp&quality=lossless&width=384&height=384'},
@@ -38,11 +33,15 @@ const products = [
   {id:37,name:'2026/2027 Real Madrid Home Football Shirt',team:'Real Madrid',season:'2026/27',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/963919457753894994/1544157363135840306/266b901d910e60217b9bf6085e453bde.png?ex=6a977c1c&is=6a962a9c&hm=142a3f611f6b63ebf59736c2f56f8ad76ee3f257cbe62f35a5c647cab0356edc&=&format=webp&quality=lossless&width=384&height=384'},
   {id:38,name:'2024/2025 Real Madrid Special Edition Pink Football Shirt',team:'Real Madrid',season:'2024/25',category:'Current Kits',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/963919457753894994/1544157392382459904/c44f17608e273bd8f2c83ffa0a87c5a1.png?ex=6a977c23&is=6a962aa3&hm=dd95d02f92e19bbee2c3839a5f1e6255e268079e469284b75f09582cf2a806ca&=&format=webp&quality=lossless&width=359&height=384'},
   {id:39,name:'2016/2017 Retro Real Madrid Away Football Shirt',team:'Real Madrid',season:'2016/17',category:'Retro',price:35,custom:true,new:false,image:'https://media.discordapp.net/attachments/963919457753894994/1544157457415282829/86f5d8ab69d8e98ebc7357afa972c8ae.png?ex=6a977c32&is=6a962ab2&hm=ba74c23ebeb0dd70ac34a60ee3e77a7d4470c9053a5a427d97bec04744da887f&=&format=webp&quality=lossless&width=384&height=384'},
+  {id:40,name:'2026 Argentina National Team Pre-Match Training Striped Football Shirt',team:'Argentina',season:'2026',category:'National Teams',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/963919457753894994/1544162545760346172/bbb288bce8fe61d50a843650778a0e3e.png?ex=6a9780f0&is=6a962f70&hm=656b06befca3c8116b7d77a2087e7777a7cbfc6849f61d4f08f9e9980b54fba2&=&format=webp&quality=lossless&width=384&height=384'},
+  {id:41,name:'2024 Argentina National Team 50th Anniversary Edition Football Shirt',team:'Argentina',season:'2024',category:'National Teams',price:35,custom:true,new:false,image:'https://media.discordapp.net/attachments/963919457753894994/1544162627993862254/33d461677b804cc1e53bba8c825a97d1.png?ex=6a978103&is=6a962f83&hm=95ddbed234af557b92c6b7cb933dcc0a900bf5afd4b52b2607645ef93604295b&=&format=webp&quality=lossless&width=384&height=384'},
+  {id:42,name:'2022 FIFA World Cup Argentina National Team Jersey Home',team:'Argentina',season:'2022',category:'National Teams',price:35,custom:true,new:false,image:'https://media.discordapp.net/attachments/963919457753894994/1544164428617093191/5d2f57304ac03d64a5297778eba71d1e.png?ex=6a9782b0&is=6a963130&hm=5a3b22b4a1ece0dc2e3068fb42d3040225e588eadc1261a777aaf29df03cc650&=&format=webp&quality=lossless&width=384&height=384'},
+  {id:43,name:'Argentina 2020 National Team Home Football Shirt',team:'Argentina',season:'2020',category:'National Teams',price:35,custom:true,new:false,image:'https://media.discordapp.net/attachments/963919457753894994/1544164517624287272/4fbeface3c1f7e605cae7b2bdc3b7058.png?ex=6a9782c6&is=6a963146&hm=3aba6f6f221fe57542dc5233fce469e2f3b5f22d346367ac0605e03a0cfcbd04&=&format=webp&quality=lossless&width=384&height=384'},
+  {id:44,name:'2026 Long Sleeve Argentina National Team Home Football Shirt',team:'Argentina',season:'2026',category:'National Teams',price:35,custom:true,new:true,image:'https://media.discordapp.net/attachments/963919457753894994/1544164622645469215/c91d7c6101a9aa9066677f7272b7360a.png?ex=6a9782df&is=6a96315f&hm=cafe3f3fde6ae654bf39a40e01e2df3910cb65062846e0d18046c3994fb3648e&=&format=webp&quality=lossless&width=384&height=384'},
 ];
 
 const teams = [
   ['Manchester City','assets/teams/manchester-city.png'],
-  ['Inter Milan','assets/teams/inter-milan.png'],
   ['Liverpool','assets/teams/liverpool.png'],
   ['AC Milan','assets/teams/ac-milan.png'],
   ['Arsenal','assets/teams/arsenal.png'],
@@ -52,11 +51,7 @@ const teams = [
   ['Real Madrid','assets/teams/real-madrid.png'],
   ['Bayern Munich','assets/teams/bayern-munich.png'],
   ['Barcelona','assets/teams/barcelona.png'],
-  ['Argentina','assets/teams/argentina.png'],
-  ['Morocco','assets/teams/morocco.png'],
-  ['United States','assets/teams/united-states.png'],
-  ['Inter Miami','assets/teams/inter-miami.png'],
-  ['Los Angeles','assets/teams/los-angeles.png']
+  ['Argentina','assets/teams/argentina.png']
 ];
 
 let cart = JSON.parse(localStorage.getItem('nxtgCart') || '[]');
@@ -78,10 +73,13 @@ function renderProducts(){
   $('#products').innerHTML=list.map(productCard).join('') || '<div class="mini-note" style="grid-column:1/-1">No jerseys found. Try another search or clear your filters.</div>';
 }
 function renderFeaturedSections(){
-  const newItems=products.filter(p=>p.new).slice(0,4); $('#newProducts').innerHTML=newItems.map(productCard).join('');
-  const retroItems=products.filter(p=>p.category==='Retro').slice(0,4); $('#retroProducts').innerHTML=retroItems.map(productCard).join('');
+  const newIds=[14,40,44,24,37];
+  const newItems=newIds.map(id=>products.find(p=>p.id===id)).filter(Boolean);
+  $('#newProducts').innerHTML=newItems.map(productCard).join('');
+  const retroItems=products.filter(p=>p.category==='Retro').slice(0,6);
+  $('#retroProducts').innerHTML=retroItems.map(productCard).join('');
 }
-function openProduct(id){const p=products.find(x=>x.id===id); const teamOptions=teams.map(([name])=>`<option value="${safe(name)}" ${name===p.team?'selected':''}>${safe(name)}</option>`).join(''); $('#productModalContent').innerHTML=`<div class="detail-grid"><div class="detail-image"><img src="${p.image}" alt="${safe(p.name)}" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="fake-shirt">NXTG</div></div><div class="detail"><p class="eyebrow">${safe(p.team)} • ${safe(p.category)}</p><h1>${safe(p.name)}</h1><div class="detail-price">${money(p.price)}</div><p class="detail-copy">Choose your team, size, and number before adding this jersey to your cart.</p><label>Team<select id="detailTeam" required><option value="" disabled ${p.team?'':'selected'}>Select team</option>${teamOptions}</select></label><label>Size<select id="detailSize" required><option value="" disabled selected>Select size</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option></select></label><label>Number<input id="detailNumber" required inputmode="numeric" maxlength="2" pattern="[0-9]{1,2}" placeholder="Required number"></label><label>Name<input id="detailName" maxlength="15" placeholder="Optional custom name"></label><button class="btn primary full" onclick="addDetail(${p.id})">Add to Cart</button></div></div>`; $('#productModal').classList.add('open');}
+function openProduct(id){const p=products.find(x=>x.id===id); const allTeams=[...new Set(products.map(x=>x.team))].sort(); const teamOptions=allTeams.map(name=>`<option value="${safe(name)}">${safe(name)}</option>`).join(''); $('#productModalContent').innerHTML=`<div class="detail-grid"><div class="detail-image"><img src="${p.image}" alt="${safe(p.name)}" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="fake-shirt">NXTG</div></div><div class="detail"><p class="eyebrow">${safe(p.team)} • ${safe(p.category)}</p><h1>${safe(p.name)}</h1><div class="detail-price">${money(p.price)}</div><p class="detail-copy">Choose your team, size, and number before adding this jersey to your cart.</p><label>Team<select id="detailTeam" required><option value="" disabled ${p.team?'':'selected'}>Select team</option>${teamOptions}</select></label><label>Size<select id="detailSize" required><option value="" disabled selected>Select size</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>2XL</option></select></label><label>Number<input id="detailNumber" required inputmode="numeric" maxlength="2" pattern="[0-9]{1,2}" placeholder="Required number"></label><label>Name<input id="detailName" maxlength="15" placeholder="Optional custom name"></label><button class="btn primary full" onclick="addDetail(${p.id})">Add to Cart</button></div></div>`; $('#productModal').classList.add('open');}
 function addDetail(id){const p=products.find(x=>x.id===id), team=$('#detailTeam').value, size=$('#detailSize').value, number=$('#detailNumber').value.trim(); if(!team||!size||!number){alert('Please select a team and size, and enter a number before adding to cart.');return;} if(!/^\d{1,2}$/.test(number)){alert('Please enter a valid 1–2 digit number.');return;} cart.push({id:p.id,name:p.name,price:p.price,size,team,customName:$('#detailName').value.trim(),customNumber:number,image:p.image}); saveCart(); $('#productModal').classList.remove('open'); openCart();}
 function quickAdd(id){openProduct(id)}
 function saveCart(){localStorage.setItem('nxtgCart',JSON.stringify(cart));$('#cartCount').textContent=cart.length;renderCart();}
@@ -93,8 +91,39 @@ function clearFilters(){['#searchInput','#teamFilter','#playerFilter','#seasonFi
 
 
 ['#searchInput','#teamFilter','#playerFilter','#seasonFilter','#priceFilter','#categoryFilter','#sizeFilter','#sortSelect'].forEach(s=>$(s).addEventListener('input',renderProducts));
+
+function renderSearchSuggestions(){
+  const input=$('#searchInput'), box=$('#searchSuggestions');
+  if(!input||!box) return;
+  const q=input.value.trim().toLowerCase();
+  if(!q){box.classList.remove('open');box.innerHTML='';return;}
+  const matches=products.filter(p=>{
+    const hay=`${p.name} ${p.team} ${p.season} ${p.category}`.toLowerCase();
+    return hay.includes(q);
+  }).slice(0,6);
+  if(!matches.length){
+    box.classList.remove('open');
+    box.innerHTML='';
+    return;
+  }
+  box.innerHTML=matches.map(p=>`<button class="search-suggestion" type="button" onclick="chooseSuggestion(${p.id})"><img src="${p.image}" alt=""><span><strong>${safe(p.name)}</strong><small>${safe(p.team)} • ${safe(p.season)}</small></span></button>`).join('');
+  box.classList.add('open');
+}
+function chooseSuggestion(id){
+  const p=products.find(x=>x.id===id);
+  $('#searchInput').value=p.name;
+  $('#searchSuggestions').classList.remove('open');
+  renderProducts();
+  openProduct(id);
+}
+$('#searchInput').addEventListener('input',renderSearchSuggestions);
+$('#searchInput').addEventListener('focus',renderSearchSuggestions);
+document.addEventListener('click',e=>{
+  const wrap=document.querySelector('.search-wrap');
+  if(wrap && !wrap.contains(e.target)) $('#searchSuggestions')?.classList.remove('open');
+});
 $('#clearFilters').addEventListener('click',clearFilters); $('#openCart').addEventListener('click',openCart); $('#closeCart').addEventListener('click',closeCart); $('#drawerOverlay').addEventListener('click',closeCart); $('#menuBtn').addEventListener('click',()=>$('#mobileMenu').classList.toggle('open'));
-$('#openSearch').addEventListener('click',()=>{$('#searchModal').classList.add('open');$('#modalSearch').focus();});
+$('#openSearch').addEventListener('click',()=>{ $('#shop').scrollIntoView({behavior:'smooth'}); setTimeout(()=>$('#searchInput').focus(),350); });
 $('#modalSearchGo').addEventListener('click',()=>{$('#searchInput').value=$('#modalSearch').value;$('#searchModal').classList.remove('open');$('#shop').scrollIntoView({behavior:'smooth'});renderProducts();});
 $$('[data-close]').forEach(b=>b.addEventListener('click',()=>$('#'+b.dataset.close).classList.remove('open'))); $$('.modal').forEach(m=>m.addEventListener('click',e=>{if(e.target===m)m.classList.remove('open')}));
 $('#checkoutBtn').addEventListener('click',()=>alert('Checkout placeholder: connect Stripe Checkout or Payment Element and server-side order creation here. Guest checkout is supported.'));
