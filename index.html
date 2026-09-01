@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="description" content="Next Gen Jerseys — soccer jerseys from top clubs, national teams, current kits and retro classics.">
   <title>Next Gen Jerseys — Soccer Jerseys</title>
-  <link rel="icon" href="assets/next-gen-jerseys-logo.svg">
+  <link rel="icon" href="assets/next-gen-jerseys-reference-logo.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,10 +13,10 @@
 
   <header class="site-header">
     <a class="brand" href="#home" aria-label="Next Gen Jerseys home">
-      <img src="assets/next-gen-jerseys-logo.svg" alt="Next Gen Jerseys">
+      <img src="assets/next-gen-jerseys-reference-logo.png" alt="Next Gen Jerseys">
     </a>
     <nav class="desktop-nav">
-      <a href="#shop">Shop</a><a href="#teams">Teams</a><a href="#retro">Retro</a><a href="#new">New Arrivals</a><a href="#contact">Contact</a>
+      <a href="#shop">Shop</a><a href="#teams">Teams</a><a href="#retro">Retro</a><a href="#new">New Arrivals</a>
     </nav>
     <div class="header-actions">
       <button class="icon-btn" id="openSearch" aria-label="Search">⌕</button>
@@ -26,22 +26,15 @@
   </header>
 
   <div class="mobile-menu" id="mobileMenu">
-    <a href="#shop">Shop</a><a href="#teams">Teams</a><a href="#retro">Retro</a><a href="#new">New Arrivals</a><a href="#contact">Contact</a>
+    <a href="#shop">Shop</a><a href="#teams">Teams</a><a href="#retro">Retro</a><a href="#new">New Arrivals</a>
   </div>
 
   <main id="home">
-    <section class="hero">
+    <section class="hero reference-hero" aria-label="Next Gen Jerseys hero">
       <div class="hero-copy">
-        <p class="eyebrow">NEXT GEN JERSEYS</p>
-        <h1>YOUR GAME.<br><span>YOUR KIT.</span></h1>
-        <p>Explore jerseys from top clubs and national teams, from today's releases to classic retro throwbacks. Add a custom name and number to make your shirt yours.</p>
-        <div class="hero-buttons"><a class="btn primary" href="#shop">Shop Jerseys →</a><a class="btn secondary" href="#teams">Browse Teams</a></div>
+        <p class="sr-only">Next Gen Jerseys — Top Teams. Iconic Players. Legendary Kits.</p>
       </div>
-      <div class="hero-art">
-        <div class="hero-grid"></div>
-        <img src="assets/next-gen-jerseys-logo.svg" alt="Next Gen Jerseys" class="hero-logo">
-        <div class="hero-message"><strong>Top Teams</strong><span>Players · Classics · New Kits</span></div>
-      </div>
+      <a class="hero-click-target" href="#shop" aria-label="Shop jerseys"></a>
     </section>
 
     <section class="trust-strip">
@@ -49,6 +42,11 @@
       <div><strong>CURRENT + RETRO</strong><span>New releases & throwbacks</span></div>
       <div><strong>PLAYER OPTIONS</strong><span>Add names & numbers</span></div>
       <div><strong>EASY SEARCH</strong><span>Find a shirt in seconds</span></div>
+    </section>
+
+    <section class="section trending-section" id="trending">
+      <div class="section-heading"><div><p class="eyebrow">WHAT'S HOT</p><h2>TRENDING JERSEYS</h2></div><a href="#shop">View all →</a></div>
+      <div class="trending-track" id="trendingProducts"></div>
     </section>
 
     <section class="section teams-section" id="teams">
@@ -84,10 +82,7 @@
       </div>
     </section>
 
-    <section class="feature-banner" id="custom">
-      <div><p class="eyebrow">MAKE IT YOURS</p><h2>ADD YOUR NAME.<br>ADD YOUR NUMBER.</h2><p>Choose your team, size and number on every product before adding it to your cart. Custom names are optional.</p></div>
-      <a class="btn primary" href="#shop">Choose a Jersey</a>
-    </section>
+
 
     <section class="section dark-section" id="retro">
       <div class="section-heading"><div><p class="eyebrow">THE CLASSICS</p><h2>RETRO & THROWBACK</h2></div><a href="#shop">Shop retro →</a></div>
@@ -101,25 +96,12 @@
       <div class="featured-products" id="newProducts"></div>
     </section>
 
-    <section class="contact-section" id="contact">
-      <div class="contact-inner">
-        <div>
-          <p class="eyebrow">CAN'T FIND THE SHIRT?</p>
-          <h2>WE CAN HELP.</h2>
-          <p>Looking for a specific club, player, season, or a shirt that isn't listed? Email the owner with your request or send any questions you have.</p>
-        </div>
-        <a class="contact-card" href="mailto:Jtlabram@gmail.com">
-          <span class="contact-icon">✉</span>
-          <span><small>EMAIL THE OWNER</small><strong>Jtlabram@gmail.com</strong></span>
-          <span class="contact-arrow">→</span>
-        </a>
-      </div>
-    </section>
+
   </main>
 
   <footer>
-    <div class="footer-brand"><img src="assets/next-gen-jerseys-logo.svg" alt="Next Gen Jerseys"></div>
-    <div class="footer-links"><a href="#shop">Shop</a><a href="#teams">Teams</a><a href="#retro">Retro</a><a href="#new">New Arrivals</a><a href="#contact">Contact</a></div>
+    <div class="footer-brand"><img src="assets/next-gen-jerseys-reference-logo.png" alt="Next Gen Jerseys"></div>
+    <div class="footer-links"><a href="#shop">Shop</a><a href="#teams">Teams</a><a href="#retro">Retro</a><a href="#new">New Arrivals</a></div>
     <p class="copyright">© 2026 Next Gen Jerseys. All rights reserved.</p>
   </footer>
 
